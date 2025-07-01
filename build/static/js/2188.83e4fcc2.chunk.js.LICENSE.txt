@@ -1,0 +1,24 @@
+/*! Bootstrap 5 integration for DataTables' Responsive
+ * © SpryMedia Ltd - datatables.net/license
+ */
+
+/*! DataTables 2.3.2
+ * © SpryMedia Ltd - datatables.net/license
+ */
+
+/*! DataTables Bootstrap 5 integration
+ * © SpryMedia Ltd - datatables.net/license
+ */
+
+/*! Responsive 3.0.4
+ * © SpryMedia Ltd - datatables.net/license
+ */
+
+/** @license React v16.14.0
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
