@@ -1,0 +1,35 @@
+.custom-datepicker {
+    padding: 3% !important;
+}
+
+.custom-datepicker:hover {
+    border-color: #023F7A !important
+}
+
+/* Override Ant Design DatePicker focused border color */
+
+.custom-datepicker.ant-picker-focused {
+    border-color: #023F7A !important;
+    /* box-shadow: #023F7A !important; */
+}
+
+
+/* Change background and text color for selected date */
+:where(.ant-picker-cell-selected) .ant-picker-cell-inner {
+    background-color: #023F7A !important;
+    /* your desired background color */
+    color: #fff !important;
+    /* text color */
+    border-radius: 4px;
+    /* optional: make it rounder */
+}
+
+/* Override Ant Design's today cell border color */
+:where(.ant-picker-dropdown) .ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+    border: 1px solid #023F7A !important;
+    /* Change this color as needed */
+}
+
+.ant-picker-now-btn {
+    color: #023F7A !important;
+}
