@@ -4,6 +4,7 @@ import AppIcon from '../assets/Images/AppIcon.svg';
 
 export default function Spinner({ message, isActive }) {
     if (!isActive) return <></>;
+   
     return (
         <div style={{
             display: 'flex',

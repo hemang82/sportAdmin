@@ -127,7 +127,7 @@ const Index = () => {
     const dashboardCards = [
         {
             title: "Total Users",
-            icon: <FiUsers style={{ fontSize: '1.5rem' , color: '#023F7A'}} />,
+            icon: <FiUsers style={{ fontSize: '1.5rem', color: '#023F7A' }} />,
             value: dashboard?.total_users,
             link: PATHS?.USER_LIST
         },
@@ -186,13 +186,14 @@ const Index = () => {
                         </div>
                     ))}
                 </div>
+
                 {/* <OwlCarousel className="owl-theme"
                     margin={10}
                     nav
                     autoplay
                     autoplayTimeout={1000}
                     autoplayHoverPause
-                // key={dashboard?.totalCustomerList ? "123" : "145"}
+                    key={dashboard?.totalCustomerList ? "123" : "145"}
                 > */}
 
                 {/* <div className="item">
